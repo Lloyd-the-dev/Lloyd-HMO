@@ -11,7 +11,7 @@
     
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-  <a class="navbar-brand" href=""><i class="fa fa-user-plus" aria-hidden="true"></i> Back to dashboard</a>
+  <a class="navbar-brand" href="admin-panel.php"><i class="fa fa-user-plus" aria-hidden="true"></i> Back to dashboard</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -187,17 +187,35 @@
                 <label for="lastname" class="placeholder">Last name</label>
             </div>
             <div class="input-container ic2">
-                <input id="email" class="input" type="text" placeholder=" " />
-                <div class="cut cut-short"></div>
-                <label for="email" class="placeholder">Email</>
+                <input id="lastname" class="input" type="text" placeholder=" " />
+                <div class="cut"></div>
+                <label for="lastname" class="placeholder">Gender</label>
             </div>
             <div class="input-container ic2">
-                <select name="" id="" class="select-input">
-                    <option value="">ashok</option>
-                    <option value="">kumar</option>
-                </select>
+                <input id="email" class="input" type="text" placeholder=" " />
                 <div class="cut cut-short"></div>
+                <label for="email" class="placeholder">Email</label>
             </div>
+            <div class="input-container ic2">
+                <input id="lastname" class="input" type="text" placeholder=" " />
+                <div class="cut"></div>
+                <label for="lastname" class="placeholder">Contact</label>
+            </div>
+            <div class="input-container ic2">
+                <label for="lastname" class="placeholder">Doctor</label>
+                <select name="" id="" class="select-input">
+                  <option value="">ashok</option>
+                  <option value="">arun</option>
+                  <option value="">Dinesh</option>
+                  <option value="">Ganesh</option>
+                  <option value="">Kumar</option>
+                  <option value="">Amit</option>
+                  <option value="">Abbis</option>
+                  <option value="">Tiwary</option>
+                </select>
+                <div class="cut"></div>
+            </div>
+            
             <button type="text" class="submit">submit</button>
         </div>
   </body>

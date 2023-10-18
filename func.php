@@ -35,7 +35,7 @@ if(isset($_POST['update_data']))
 	if($result)
 		header("Location:updated.php");
 }
-
+  
 
 
 
